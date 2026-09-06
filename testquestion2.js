@@ -9,6 +9,7 @@ function setup(){
         circle (Xpos,Ypos,50);
         Xpos = Xpos +55;
         Ypos = Ypos + 55;
+        colorMe = colorMe + 67;
 
     }
 }
