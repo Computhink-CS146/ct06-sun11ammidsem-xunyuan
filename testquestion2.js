@@ -7,6 +7,7 @@ function setup(){
 
     for(let count=0; count<10;count++) {
         circle (Xpos,Ypos,50);
+        Xpos = Xpos
 
     }
 }
