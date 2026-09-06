@@ -6,7 +6,7 @@ function setup() {
 
 }
 function draw(){
-    circle(80,80,100);
+    circle(300,80,100);
     fill("black");
     stroke("red");
     strokeWeight(10);
