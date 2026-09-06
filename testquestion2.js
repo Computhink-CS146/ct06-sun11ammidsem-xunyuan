@@ -6,11 +6,12 @@ function setup(){
     background("lightgrey");
 
     for(let count=0; count<10;count++) {
+        fill(colorMe);
         circle (Xpos,Ypos,50);
         Xpos = Xpos +55;
         Ypos = Ypos + 55;
         colorMe = colorMe + 67;
-        fill(colorMe)
+        
 
     }
 }
