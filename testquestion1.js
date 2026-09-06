@@ -6,10 +6,10 @@ function setup() {
 
 }
 function draw(){
-    circle(300,80,100);
+    circle(200,80,100);
     fill("black");
     stroke("red");
     strokeWeight(10);
     triangle(300,250,110,80,90,50);
-    rect(300,50,90,90)
+    rect(400,50,90,90)
 }
