@@ -1,1 +1,12 @@
+let Xpos = 50;
+let Ypos = 50;
+let colorMe = 0;
+function setup(){
+    createCanvas(600,600);
+    background("lightgrey");
 
+    for(let count=0; count<10;count++) {
+        circle (Xpos,Ypos,50);
+
+    }
+}
