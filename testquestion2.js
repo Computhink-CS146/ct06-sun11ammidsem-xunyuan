@@ -10,6 +10,7 @@ function setup(){
         Xpos = Xpos +55;
         Ypos = Ypos + 55;
         colorMe = colorMe + 67;
+        fill(colorMe)
 
     }
 }
